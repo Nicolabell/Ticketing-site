@@ -4,35 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML 5 Boilerplate</title>
+    <title>Parallax technical test</title>
     <link rel="stylesheet" href="build/main.css">
   </head>
+ 
   <body>
-    <header>
+     <!-- HEADER / NAV START-->
+    <header class="main-header">
       <h2>Hola</h2>
+      <div class="logo">
+        <a href="#">LOGO</a> <!--LOGO placeholder until have sketch file -->
+      </div>
+      <input type="checkbox" class="menu-btn" id="menu-btn">
+      <label for="menu-btn" class="menu-icon">
+        <span class="menu-icon__line"></span>
+      </label>
       <nav>
-        <ul></ul>
-         <li><a href="#">Link 1</a></li>
-         <li><a href="#">Link 2</a></li>
-         <li><a href="#">Link 3</a></li>
+        <ul class="nav-links">
+         <li class="nav-link"><a href="#">Link 1</a></li>
+         <li class="nav-link"><a href="#">Link 2</a></li>
+         <li class="nav-link"><a href="#">Link 3</a></li>
+         <li class="nav-link"><a href="#">Link 4</a></li>
+        </ul>
       </nav>
 	  </header>
-  </body>
-  <footer>
-    <p>
-        <!-- text for newsletter signup -->
-        <p>Sign up for the newsletter:</p>
-        <input type="text" id="name" placeholder="Your name">
-        <input type="email" id="email" placeholder="Email">
-         
-        <!-- Button to send data -->
-        <button onclick="sendJSON()">Sign up</button>
- 
-      <!-- For printing result from server -->
-      <p class="result" style="color:green"></p>
-   </p>
+    <!-- HEADER / NAV END -->
 
-   <!-- javascript file-->
-   <script src="index.js"></script>  
-  </footer>
+    <div class="container">
+      <p>Some stufffff</p>
+    </div>
+
+    <div class="container">
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam accusamus quasi dolore voluptatibus sit! Aliquid alias hic nisi veritatis consequatur deleniti, similique tenetur dicta pariatur maxime corrupti, reprehenderit nostrum ab!</p>
+    </div>
+  
+
+ 
+
+
+  <!-- FOOTER -->
+    <footer>
+      <p>
+          <!-- text for newsletter signup -->
+          <p>Sign up for the newsletter:</p>
+          <input type="text" id="name" placeholder="Your name">
+          <input type="email" id="email" placeholder="Email">
+          
+          <!-- Button to send data -->
+          <button onclick="sendJSON()">Sign up</button>
+  
+        <!-- For printing result from server -->
+        <p class="result" style="color:green"></p>
+    </p>
+
+    <!-- javascript file-->
+    <script src="index.js"></script>  
+    </footer>
+    <!-- FOOTER END -->
+    
+  </body>
 </html>

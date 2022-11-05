@@ -8,6 +8,20 @@
   align-items: center;
 }
 
-h2 {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
   font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 2rem auto;
+}
+.container p {
+  margin: 1rem 0;
 }
