@@ -1,7 +1,8 @@
 {
   "dependencies": {
     "gulp": "^4.0.2",
-    "gulp-sass": "^5.1.0"
+    "gulp-sass": "^5.1.0",
+    "include-media": "^1.4.10"
   },
   "devDependencies": {
     "sass": "^1.56.0"
