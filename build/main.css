@@ -8,6 +8,17 @@
   align-items: center;
 }
 
+.hero {
+  height: 100vh;
+  background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FigRB52t7oRg%2Fmaxresdefault.jpg&f=1&nofb=1&ipt=8893bee18baeeeb2f1a56e938dc8dc29c62917f77c96ce0da393651374747fbb&ipo=images");
+  bottom: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10vw;
+  color: #fff;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
