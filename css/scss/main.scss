@@ -11,3 +11,14 @@
      @include flex-center;
   }
 }
+
+// Partials
+
+@import 'typography';
+
+
+// h2 test
+
+h2 {
+    font-family: $primary-font;
+}
