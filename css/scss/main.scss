@@ -1,0 +1,13 @@
+
+// test scss to see if watching is doing a watch
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    width: 100%;
+    .inner-container {
+     @include flex-center;
+  }
+}
