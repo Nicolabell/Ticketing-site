@@ -2,7 +2,8 @@
   "dependencies": {
     "gulp": "^4.0.2",
     "gulp-sass": "^5.1.0",
-    "include-media": "^1.4.10"
+    "include-media": "^1.4.10",   //Hopefully for retina media queries goodness
+    "wicg-inert": "^3.1.2"  // for accessible modal inert polyfill
   },
   "devDependencies": {
     "sass": "^1.56.0"

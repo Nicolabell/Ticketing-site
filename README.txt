@@ -15,6 +15,7 @@ javascript
 scss / css
 php (if I can get it working)
 
+
 -------------------------------------
 
 ### Resources
@@ -43,6 +44,12 @@ Json POST:
 (bit confused here)
 - https://reqbin.com/req/2xhbguy8/json-payload-example
 - https://www.geeksforgeeks.org/how-to-send-a-json-object-to-a-server-using-javascript/  
+
+Video modal
+- Accessible Modal Dialogs -- A11ycasts #19 - https://www.youtube.com/watch?v=JS68faEUduk
+- ARIA Authoring Practices: Dialog - https://goo.gl/ibNKWw
+- Inert Polyfill - https://goo.gl/nXMS1V
+- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog
 
 -------------------------------------
 

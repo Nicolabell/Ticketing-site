@@ -1,0 +1,35 @@
+
+// Accessible video pop up modal
+
+.dialog {
+   display: none;  // hide modal from dom and screenreader
+}
+
+.dialog.opened {  // when js gives the class of opened to the dialog div it is displayed
+    display: block;
+}
+
+.dialog__window {
+    display: inline-block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  //align in the middle of viewport
+    background: #fff;
+    border: 2px solid #000;
+    padding: 18px;
+    z-index: 101;
+}
+
+.dialog__mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;   // masks all of the page while the modal is open
+    width: 100%;
+    background: #000;
+    opacity: 0.6;
+    overflow: hidden;
+    z-index: 100;
+}
+

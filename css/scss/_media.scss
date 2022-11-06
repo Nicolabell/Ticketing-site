@@ -56,7 +56,7 @@
 
          }
 
-         .menu-btn:checked ~ .nav-links { //if button checked, look at sibling nav links
+         .menu-btn:checked ~ .nav-links { //if button checked, look at sibling nav links. needs to be able to traverse to siblings
            opacity: 1;
            clip-path: circle(100% at center);
 

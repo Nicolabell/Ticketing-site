@@ -94,5 +94,13 @@ $ease: background .8s ease;
 
         }
     }
+
+    .logo {
+        background-color: rgba(0, 0, 0, 0.5);
+        -webkit-backdrop-filter: blur(25px) brightness(39%);
+        backdrop-filter: blur(25px) brightness(39%);
+        padding: 8px;
+        border-radius: 5px;
+    }
 }
 

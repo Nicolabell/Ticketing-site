@@ -12,7 +12,7 @@
      <!-- HEADER / NAV START-->
     <header class="main-header">
       <div class="logo">
-        <a href="#">LOGO</a> <!--LOGO placeholder until have sketch file -->
+        <a href="#"><img src="../assets/logo.svg" alt="company logo and home link"></a> <!--LOGO placeholder until have sketch file -->
       </div>
 
       <input type="checkbox" aria-label="Navigation toggle" class="menu-btn" id="menu-btn" >   <!-- this would be better using the button tag and nav tag-->
@@ -31,13 +31,14 @@
 
     <div class="hero">
       <h1>Some stufffff</h1>
+      <p><img src="../assets/rfid.png" alt="video thumbnail which will open a video" class="vid-thumbnail" id="openVid"></p>
     </div>
 
     <div class="container">
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam accusamus quasi dolore voluptatibus sit! Aliquid alias hic nisi veritatis consequatur deleniti, similique tenetur dicta pariatur maxime corrupti, reprehenderit nostrum ab!</p>
     </div>
 
-    <img src="../assets/rfid.png" alt="video thumbnail which will open a video" class="vid-thumbnail">
+   
   
 
  
@@ -58,10 +59,24 @@
         <p class="result" style="color:green"></p>
     </p>
 
-    <!-- javascript file-->
-    <script src="index.js"></script>  
+   
     </footer>
     <!-- FOOTER END -->
 
+    <!-- MODAL PLACEMENT (so that rest of body can be rendered inert and tab does not get stuck outside of modal)-->
+    <dialog class="dialog" role="dialog" aria-labelledby="dialog-title">  <!--  aria labeling for accessibility when using screenreader -->
+      <div class="dialog__window">
+        <div>
+          <h2 id="dialog-title">Video pop up</h2>
+        </div>
+          <p>Some stuff</p>
+          <button>Close</button>
+          <button>Ok</button>
+      </div>
+      <div class="dialog__mask"></div>
+    </dialog>
+ <!-- javascript file-->
+    <script src="node_modules/wicg-inert/inert.js"></script>
+    <script src="index.js"></script>  
   </body>
 </html>
