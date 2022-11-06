@@ -1,4 +1,20 @@
+// Burger menu
+
+const header = document.querySelector('.main-header');   // caches main header class to header const variable
+
+window.addEventListener('scroll', () => {
+    const scrollPos = window.scrollY;             //vertical scroll position
+    if(scrollPos > 10){
+        header.classList.add('scrolled');         //Adds the background class if scroll greater than X
+    } else {
+        header.classList.remove('scrolled');      //Removes background if not
+    }
+})  
+
+
+// Post function for newsletter sign up
 // This JSON function is copied from https://www.geeksforgeeks.org/how-to-send-a-json-object-to-a-server-using-javascript/
+
 function sendJSON(){
               
     let result = document.querySelector('.result');
@@ -31,3 +47,5 @@ function sendJSON(){
     // Sending data with the request
     xhr.send(data);
 }
+
+
