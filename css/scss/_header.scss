@@ -11,6 +11,7 @@ $ease: background .8s ease;
     width: 100vw;
     padding: 0 10vw;
     color: #000;
+    background: #fff; 
     z-index: 1; // header always appears on top of everything
     transition: .4s ease-out; //brackground colour of menu eases in on scroll
 
