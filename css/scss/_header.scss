@@ -1,0 +1,93 @@
+//HEADER
+
+$ease: background .8s ease;
+
+.main-header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    width: 100vw;
+    padding: 0 10vw;
+    color: #000;
+    z-index: 1; // header always appears on top of everything
+
+    a {
+      text-decoration-style: none;
+      color: inherit;
+      text-transform: uppercase;
+    }
+
+    .nav-links {
+        display: flex;
+        list-style: none;
+
+      .nav-link {
+
+        a{
+            margin: .2rem;
+            padding: 1rem .5rem;
+        }
+        a:hover {
+            background: rgba(255,255,255, 0.5); // Make a stronger visual change later
+
+        }
+      }
+    }
+
+    .menu-icon {  //wrapper around burger menu
+        position: relative;
+        padding: 26px 10px;
+        cursor: pointer;
+        z-index: 1;
+        //display: none;  //Make sure only visually hidden and can be accessed by screen reader on mob
+
+        // The burger menu lines:
+        &__line {  //Line one
+            display: block;
+            position: relative;
+            background: #000;
+            height: 2px;
+            width: 20px;
+            border-radius: 4px;
+            transition: $ease;
+
+            &::before, &::after { // Additional 2 lines
+                content: '' ;
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                border-radius: 4px;
+                transition: $ease;
+            }
+            &::before {
+                transform: translateY(-5px);  // places bar 5 px up
+            }
+            &::after {
+                transform: translateY(5px);  // places bar 5 px down
+            }
+        }
+    }
+
+    .menu-btn {
+        display: none;  //Hides the checkbox for the burger menu that will be targeted by the javascript
+
+    }
+
+    //Js class to add background to menu on scroll
+    &.scrolled {
+        height: 50px;
+        background: rgba(0,0,0, 0.9);
+        color: #fff;
+
+        .menu-icon { //setting the background of burger menu to white when page scrolled
+            &__line,
+            &__line::before,
+            &__line::after {
+                background: #ffff
+            }
+
+        }
+    }
+}
