@@ -1,0 +1,87 @@
+// Animations
+
+
+// Animation for burger menu  OPEN 
+
+@keyframes openTop {     // move top burger bar 90 degrees
+    0% {
+        transform: translateY(-5px)
+        rotate(0deg);
+    }
+    50% {  
+        transform: translateY(0px)
+        rotate(0deg);
+    }
+    100% {
+        transform: translateY(0px) 
+        rotate(90deg);
+    }
+}
+
+
+@keyframes openMid {     // move top burger bar 90 degrees
+    50% {  
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(45deg);
+    }
+}
+
+
+@keyframes openBtm {     // move top burger bar 90 degrees
+    0% {
+        transform: translateY(5px)
+        rotate(0deg);
+    }
+    50% {  
+        transform: translateY(0px)
+        rotate(0deg);
+    }
+    100% {
+        transform: translateY(0px) 
+        rotate(90deg);
+    }
+}
+
+
+// Animation CLOSED
+
+@keyframes closedTop {     // move top burger bar 90 degrees
+    0% {
+        transform: translateY(-5px)
+        rotate(0deg);
+    }
+    50% {  
+        transform: translateY(0px)
+        rotate(0deg);
+    }
+    100% {
+        transform: translateY(0px) 
+        rotate(90deg);
+    }
+}
+
+@keyframes closedMid {     // move top burger bar 90 degrees
+    50% {  
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(45deg);
+    }
+}
+
+@keyframes closedBtm {     // move top burger bar 90 degrees
+    0% {
+        transform: translateY(5px)
+        rotate(0deg);
+    }
+    50% {  
+        transform: translateY(0px)
+        rotate(0deg);
+    }
+    100% {
+        transform: translateY(0px) 
+        rotate(90deg);
+    }
+}

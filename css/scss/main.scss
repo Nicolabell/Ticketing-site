@@ -14,11 +14,34 @@
 
 // Partials
 
-@import 'typography', 'brealpoints';
+@import 'typography';
+@import 'nav';
+@import 'hero';
+@import 'header';
+// @import 'breakpoints';
+@import 'media';
+@import 'animation';
 
 
-// h2 test
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
-h2 {
+body {
     font-family: $primary-font;
+}
+
+
+// The sass below is based on the navigation tutorial and may need adjusting when sketch design seen
+
+.container {
+    width: 80%;
+    margin: 2rem auto;
+
+    p {
+        margin: 1rem 0;
+    }
+
 }
