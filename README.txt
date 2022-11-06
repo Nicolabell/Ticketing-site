@@ -1,13 +1,21 @@
+
 ### General Info
 ***
-Technical challenge for Parallax
 
+Technical challenge for Parallax
+NB - I didn't have access to the Sketch file when I started this, so it's all probably a bit off piste initially :D
+
+-------------------------------------
 
 ### Technologies used
 ***
-nmp
-node.js
+nmp / node.js
 gulp 4
+javascript
+scss / css
+php (if I can get it working)
+
+-------------------------------------
 
 ### Resources
 ***
@@ -25,7 +33,20 @@ Breakpoints and retina device references:
 - https://github.com/eduardoboucas/include-media 
 - https://eduardoboucas.github.io/include-media/
 
+Responsive nav set up:
+- Based on https://www.youtube.com/watch?v=mEtmJ2xk16g
+- https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/
+- https://www.makeuseof.com/mobile-menu-bar-coding/
+
+
+Json POST:
+(bit confused here)
+- https://reqbin.com/req/2xhbguy8/json-payload-example
+- https://www.geeksforgeeks.org/how-to-send-a-json-object-to-a-server-using-javascript/  
+
+-------------------------------------
 
 ### Timing
 ***
--Inital gulp-sass set up - ~1.5 hours 
+- Inital gulp-sass set up - ~1.5 hours 
+- Responsive nav - ~ 3 hours
