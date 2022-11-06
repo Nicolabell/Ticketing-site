@@ -12,6 +12,7 @@ $ease: background .8s ease;
     padding: 0 10vw;
     color: #000;
     z-index: 1; // header always appears on top of everything
+    transition: .4s ease-out; //brackground colour of menu eases in on scroll
 
     a {
       text-decoration-style: none;
@@ -27,7 +28,7 @@ $ease: background .8s ease;
 
         a{
             margin: .2rem;
-            padding: 1rem .5rem;
+            padding: 1rem .5rem;            
         }
         a:hover {
             background: rgba(255,255,255, 0.5); // Make a stronger visual change later
@@ -41,7 +42,7 @@ $ease: background .8s ease;
         padding: 26px 10px;
         cursor: pointer;
         z-index: 1;
-        //display: none;  //Make sure only visually hidden and can be accessed by screen reader on mob
+        display: none;  //Make sure only visually hidden and can be accessed by screen reader on mob
 
         // The burger menu lines:
         &__line {  //Line one
@@ -55,6 +56,8 @@ $ease: background .8s ease;
 
             &::before, &::after { // Additional 2 lines
                 content: '' ;
+                background: #000;
+
                 position: absolute;
                 height: 100%;
                 width: 100%;
@@ -91,3 +94,4 @@ $ease: background .8s ease;
         }
     }
 }
+

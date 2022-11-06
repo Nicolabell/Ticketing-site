@@ -1,0 +1,94 @@
+// Media breakpoints based on menu
+
+@media screen and (max-width: 767px) { //anything smaller than an ipad
+     .main-header {
+         .menu-icon {
+             display: block;
+
+             &__line {  // burger menu change to X when open
+                animation: closedMid 0.8s backwards;
+                animation-direction: reverse;
+
+                &::before {
+                    animation: closedTop 0.8s backwards;
+                    animation-direction: reverse;
+                }
+                &::after {
+                    animation: closedBtm 0.8s backwards;
+                    animation-direction: reverse;
+                }
+
+
+             }
+         }
+         .nav-links {  //ul  to full page menu on mobile
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0;  //opacity starts at 0 so that is can transition to circle animation
+            flex-direction: column;
+            justify-content: space-evenly;  //spaces evenly vertically
+            align-items: center;  //spaces evently horizontally
+            padding: 10rem 0;
+            width: 100vw;
+            height: 100vh;
+            font-size: 2rem;
+            color: #fff;
+            background: #272727;
+            //transition:
+            //  opacity .8s .5s,
+            //  clip-path 1s .5s;
+
+            //clip-path: circle(200px); //creates a mask around the mobile menu links
+
+            .nav-link {
+                opacity: 0;
+                transform: translateX(100%);  // move 100% of width to right
+                width: 100%;
+                text-align: center;
+
+                a {
+                    display: block;
+                    padding: 2rem 0;
+                }
+
+            }
+
+         }
+
+         .menu-btn:checked ~ .nav-links { //if button checked, look at sibling nav links
+           opacity: 1;
+           clip-path: circle(100% at center);
+
+           .nav-link {
+               opacity: 1;
+               transform: translateX(0);
+               transition:
+                transform .6s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;  //bounce mobile menu in
+           }
+         }
+
+         .menu-btn:checked ~ .menu-icon {   //turn burger menu white when clicked
+
+            //animation for X in burger menu
+            .menu-icon__line {
+                background: #fff;
+                animation: openMid 0.8s forwards;
+
+                &::before {
+                    background: #fff;
+                    animation: openTop 0.8s forwards;
+                }
+                &::after {
+                    background: #fff;
+                    animation: openBtm 0.8s forwards;
+                }
+
+            }
+         }
+    }
+
+    .hero h1 {
+        font-size: 2rem;  //scale down h1 on mobile
+    }
+}
