@@ -9,7 +9,13 @@ button {
     border: 10px opacity 5% rgb(0, 0, 255, 0);
     outline: 2px solid $highlight01;
 
-    
-  
+   
    
 }
+
+button.faded {
+        background-color: rgb(151, 151, 151, 0.4);
+        outline: 2px solid rgb(151, 151, 151, 0.4);
+       
+    }
+  

@@ -46,6 +46,8 @@ Json POST:
 
 Styling:
 - button borders - https://css-tricks.com/snippets/css/multiple-borders/
+- CSS gradients https://www.w3schools.com/css/css3_gradients.asp
+- clip path polygon maker https://bennettfeely.com/clippy/
 
 -------------------------------------
 

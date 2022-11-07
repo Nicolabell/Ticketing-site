@@ -1,8 +1,48 @@
+@import 'colours';
 // Sections
-
 
 section {
     width: 100vw;
     padding: 1px;
     align-content: center;
+
+    
+}
+
+.graphic {
+    width: 30%;
+    padding: 20px;
+}
+
+section.update {
+    text-align: center;
+    display: flex;
+    width: 100vw;
+    height: 200px;
+    color: $white;
+    background-color: $dark02;
+        
+}
+
+section.try {
+    text-align: center;
+
+}
+
+section.clients {
+    clip-path: polygon(0 2%, 100% 38%, 100% 100%, 0% 100%);
+    background-image: linear-gradient(to right, #B3A7E3 , #3B8EF9);
+}
+
+
+footer {
+    background-color: $dark01;
+
+}
+
+@media screen and (max-width: 767px) {
+    .graphic {
+        width: 90%;
+        padding: 10px;
+    }
 }

@@ -260,12 +260,50 @@ button {
   outline: 2px solid #F93B84;
 }
 
+button.faded {
+  background-color: rgba(151, 151, 151, 0.4);
+  outline: 2px solid rgba(151, 151, 151, 0.4);
+}
+
 section {
   width: 100vw;
   padding: 1px;
   align-content: center;
 }
 
+.graphic {
+  width: 30%;
+  padding: 20px;
+}
+
+section.update {
+  text-align: center;
+  display: flex;
+  width: 100vw;
+  height: 200px;
+  color: #fff;
+  background-color: #2A4789;
+}
+
+section.try {
+  text-align: center;
+}
+
+section.clients {
+  clip-path: polygon(0 2%, 100% 38%, 100% 100%, 0% 100%);
+  background-image: linear-gradient(to right, #B3A7E3, #3B8EF9);
+}
+
+footer {
+  background-color: #000095;
+}
+
+@media screen and (max-width: 767px) {
+  .graphic {
+    width: 90%;
+    padding: 10px;
+  }
+}
 * {
   box-sizing: border-box;
   margin: 0;
