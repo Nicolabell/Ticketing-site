@@ -10,7 +10,9 @@
 
 .hero {
   height: 100vh;
-  background: url("../assets/hero.jpg");
+  width: 100vw;
+  background: url("../assets/hero.jpg") no-repeat;
+  background-position: center;
   bottom: center;
   display: flex;
   justify-content: center;
@@ -38,6 +40,7 @@
   color: #fff;
   text-align: center;
   width: 100%;
+  z-index: 1;
   background-color: #000095;
 }
 
@@ -50,7 +53,7 @@
   align-items: center;
   height: 80px;
   width: 100vw;
-  padding: 0 10vw;
+  padding: 0 20vw;
   color: rgb(247, 238, 238);
   z-index: 1;
   transition: 0.4s ease-out;
@@ -147,7 +150,7 @@
     height: 100vh;
     font-size: 2rem;
     color: #fff;
-    background: #272727;
+    background: #000095;
   }
   .main-header .nav-links .nav-link {
     opacity: 0;
@@ -255,6 +258,12 @@ button {
   margin: 10px;
   border: 10px opacity 5% rgba(0, 0, 255, 0);
   outline: 2px solid #F93B84;
+}
+
+section {
+  width: 100vw;
+  padding: 1px;
+  align-content: center;
 }
 
 * {

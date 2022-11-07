@@ -1,9 +1,11 @@
-
+@import 'colours';
 // RESPONSIVE HERO IMAGE
 
 .hero {
    height: 100vh;
-   background: url('../assets/hero.jpg');   // use srcset to scale down image on mob
+   width: 100vw;
+   background: url('../assets/hero.jpg') no-repeat;  // use srcset to scale down image on mob
+   background-position:center;
    bottom: center;
    display: flex;
    justify-content: center;  //needs to be 100% 

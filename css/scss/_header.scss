@@ -12,7 +12,7 @@ $ease: background .8s ease;
     color: $white;
     text-align: center;
     width: 100%;
-    //z-index: 2;
+    z-index: 1; //make sure top CTA remains sticky to top of screen
     background-color: $dark01;
 }
 
@@ -25,9 +25,9 @@ $ease: background .8s ease;
     align-items: center;
     height: 80px; //taken from sketch mock up
     width: 100vw;
-    padding: 0 10vw;
+    padding: 0 20vw; // Keeps logo etc within hero image 
     color: rgb(247, 238, 238);
-    z-index: 1; // Nav always appears on top of everything
+    z-index: 1; // Nav always appears on top below CTA
     transition: .4s ease-out; //brackground colour of menu eases in on scroll
 
     a {
