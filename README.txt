@@ -44,6 +44,9 @@ Json POST:
 - https://reqbin.com/req/2xhbguy8/json-payload-example
 - https://www.geeksforgeeks.org/how-to-send-a-json-object-to-a-server-using-javascript/  
 
+Styling:
+- button borders - https://css-tricks.com/snippets/css/multiple-borders/
+
 -------------------------------------
 
 ### Timing
