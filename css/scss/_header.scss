@@ -1,23 +1,39 @@
+
+@import 'colours';
+
 //HEADER
 
 $ease: background .8s ease;
 
+.cta {
+    position: fixed;
+    height: 60px; //taken from sketch mock up
+    padding: 10px;
+    color: $white;
+    text-align: center;
+    width: 100%;
+    //z-index: 2;
+    background-color: $dark01;
+}
+
 .main-header {
     position: fixed;
+    top: 60px;
+    left: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 65px;
+    height: 80px; //taken from sketch mock up
     width: 100vw;
     padding: 0 10vw;
-    color: #000;
-    z-index: 1; // header always appears on top of everything
+    color: rgb(247, 238, 238);
+    z-index: 1; // Nav always appears on top of everything
     transition: .4s ease-out; //brackground colour of menu eases in on scroll
 
     a {
       text-decoration-style: none;
       color: inherit;
-      text-transform: uppercase;
+      
     }
 
     .nav-links {
@@ -28,10 +44,16 @@ $ease: background .8s ease;
 
         a{
             margin: .2rem;
-            padding: 1rem .5rem;            
+            padding: 1.5rem 1rem;
+            text-decoration: none;
+
         }
         a:hover {
-            background: rgba(255,255,255, 0.5); // Make a stronger visual change later
+            background: rgba(80, 179, 224, 0.74); // strong visual change to help with accessibility
+            border-radius: 6px;
+            text-decoration: underline;
+            color: #000;
+            font-weight: bold;
 
         }
       }
@@ -48,7 +70,7 @@ $ease: background .8s ease;
         &__line {  // middle line
             display: block;
             position: relative;
-            background: #000;
+            background: $highlight01;
             height: 2px;
             width: 20px;
             border-radius: 4px;
@@ -56,7 +78,7 @@ $ease: background .8s ease;
 
             &::before, &::after { // Additional 2 lines
                 content: '' ;
-                background: #000;
+                background: $highlight01;
 
                 position: absolute;
                 height: 100%;
