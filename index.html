@@ -39,21 +39,23 @@
       <div class="hero-text">
         <h1>Make your event a success</h1>
         <p>Zicket handles all the hassle of selling tickets for every type of event.</p>
-        <button class="get-started">Get started</button>
+        <button class="get-started" style="margin: 50px;">Get started</button>
         <div class="line"></div>
-        <p class="stats">Over 3,000,000 Tickets Sold at some of Asia's Top Events Last Year</p>
+        <p class="stats" style="padding: 50px;">Over 3,000,000 Tickets Sold at some of Asia's Top Events Last Year</p>
       </div> 
       
     </div>
 
 
-    <section>
-      <p>How zicket</p>
-      <p>Our Hong Kong and Singapore based experts will help get your event set-up and selling tickets quickly and easily.</p>
+    <section class="flex-container">
+      <h2 class="flex-item">How Zicket works</h2>
+      <p class="flex-item">Our Hong Kong and Singapore based experts will help get your event set-up and selling tickets quickly and easily.</p>
     </section>
 
     <section>
+      <div class="graphic-polygon">fghfg</div>
       <img class="graphic" src="../assets/payments.png" alt="payments image">  <!--Not a useful image so could leave out the alt text?-->
+
       <h2>Set up &amp; Payments</h2>
       <p>Quickly build your dedicated events page in English & Chinese. Accept payments from all major providers through our safe and reliable checkout.</p>
       <p>Exlore features</p>
@@ -85,7 +87,7 @@
     </section>
 
     <section class="clients">
-      <h2>Our clients</h2>
+      <h2 style="padding: 100px 0">Our clients</h2>
       <p>We’ve supported all kinds of events from large to small and we can help yours too. </p>
       <!-- carasoul placeholder--> 
       
@@ -120,32 +122,39 @@
 
   <!-- FOOTER -->
     <footer>
-      <div class="product">
-        <h5 class="ftr-link">Product</h5>
-        <ul>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Clients</a></li>
-          <li><a href="#">Faqs</a></li>
-        </ul>
+      <!--Footer menu items-->
+      <div class="flex-container">
+        <div class="flex-item" id="product">
+          <h5 class="ftr-link">Product</h5>
+          <ul>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Clients</a></li>
+            <li><a href="#">Faqs</a></li>
+          </ul>
+        </div>
+        <div class="flex-item" id="about">
+          <h5 class="ftr-link">About</h5>
+          <ul>
+            <li><a href="#">About Zicket</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">News</a></li>
+          </ul>
+        </div>
+        <div class="flex-item" id="legal">
+          <h5 class="ftr-link">Legal</h5>
+          <ul>
+            <li><a href="#">TCs</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Security</a></li>
+          </ul>
+        </div>
+            <!--Footer mbuy tickets button-->
+        <div class="flex-item">
+          <button>Buy tickets</button>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>
       </div>
-      <div class="about">
-        <h5 class="ftr-link">About</h5>
-        <ul>
-          <li><a href="#">About Zicket</a></li>
-          <li><a href="#">Careers</a></li>
-          <li><a href="#">News</a></li>
-        </ul>
-      </div>
-      <div class="legal">
-        <h5 class="ftr-link">Legal</h5>
-        <ul>
-          <li><a href="#">TCs</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Security</a></li>
-        </ul>
-      </div>
-         
-
+      <hr>
     <!-- javascript file-->
     <script src="index.js"></script>  
     </footer>

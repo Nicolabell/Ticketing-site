@@ -47,7 +47,10 @@ Json POST:
 Styling:
 - button borders - https://css-tricks.com/snippets/css/multiple-borders/
 - CSS gradients https://www.w3schools.com/css/css3_gradients.asp
-- clip path polygon maker https://bennettfeely.com/clippy/
+- clip path polygon maker https://bennettfeely.com/clippy
+- https://css-tricks.com/the-shapes-of-css/
+- flexbox centering https://onextrapixel.com/flexbox-centering-guide/
+- text stroke  https://www.youtube.com/watch?v=Hx1p1vQeHCg
 
 -------------------------------------
 

@@ -2,17 +2,13 @@
 // Sections
 
 section {
+    position: relative; // to assist placement of image and polygon
     width: 100vw;
     padding: 1px;
     align-content: center;
-
     
 }
 
-.graphic {
-    width: 30%;
-    padding: 20px;
-}
 
 section.update {
     text-align: center;
@@ -33,6 +29,38 @@ section.clients {
     clip-path: polygon(0 2%, 100% 38%, 100% 100%, 0% 100%);
     background-image: linear-gradient(to right, #B3A7E3 , #3B8EF9);
 }
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flex-item {
+    text-align: center;
+    width: 45%;
+    padding: 50px;
+}
+
+.graphic-polygon {
+    //position: relative;
+    width: 150px;
+    height: 100px;
+    transform: skew(20deg);
+    background:$polygon;
+    border-radius: 5px;
+  }
+
+
+.graphic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    padding: 20px;
+}
+
+
 
 
 footer {
