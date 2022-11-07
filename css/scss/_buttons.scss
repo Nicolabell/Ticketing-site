@@ -3,11 +3,18 @@
 button {
     background-color: $highlight01;
     color: $white;
-    padding: 15px 25px;
+    padding: 10px 15px;
     border-radius: 40px;
     margin: 10px;
-    border: 10px opacity 5% rgb(0, 0, 255, 0);
+    border: 10px rgba(0, 0, 0, .4);
+    //border: 10px opacity 5% rgb(0, 0, 255, 0);   ummmmmmmmmm
     outline: 2px solid $highlight01;
+
+    &:hover,   //obvious visual transition on focus and hover
+    &:focus {
+        background-color: #000;
+        transition: 0.2s;
+    }
 
    
    
@@ -16,6 +23,7 @@ button {
 button.faded {
         background-color: rgb(151, 151, 151, 0.4);
         outline: 2px solid rgb(151, 151, 151, 0.4);
-       
     }
+
+
   

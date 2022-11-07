@@ -260,11 +260,15 @@
 button {
   background-color: #F93B84;
   color: #fff;
-  padding: 15px 25px;
+  padding: 10px 15px;
   border-radius: 40px;
   margin: 10px;
-  border: 10px opacity 5% rgba(0, 0, 255, 0);
+  border: 10px rgba(0, 0, 0, 0.4);
   outline: 2px solid #F93B84;
+}
+button:hover, button:focus {
+  background-color: #000;
+  transition: 0.2s;
 }
 
 button.faded {
