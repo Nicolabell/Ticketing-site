@@ -27,12 +27,13 @@
       -webkit-text-stroke: 2px white;
       padding: 2rem;
       border-radius: 20px 0;
+      max-width: 500px;
    
 
    }
 
    .hero-text {
-      width: 60%;
+      min-width: 7rem;
       text-align: center;
    }
 
@@ -40,5 +41,6 @@
       color: $white;
    }
 }
+
 
 
