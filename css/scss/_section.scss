@@ -1,9 +1,12 @@
 @import 'colours';
+
+$max-width: 1200px;  //this is to stop sections expanding too far on desktop
 // Sections
 
 section {
     position: relative; // to assist placement of image and polygon
     padding: 20px;
+    max-width: $max-width;
     //align-content: center;
     
 }
@@ -73,7 +76,42 @@ section.clients {
 
 footer {
     background-color: $dark01;
+    max-width: $max-width;
 
+}
+
+
+
+.grid-container--footer {
+    display: grid;
+    grid-template-columns: 1fr;  // Mobile first approach
+    gap: 1em;
+    justify-content: space-around;
+    padding: 4em;
+    max-width: 5em;
+
+}
+
+@media screen and (min-width: 767px) {
+    .grid-container--footer {
+        grid-template-columns: 1fr 1fr 1fr 2fr; //desktop aligns the image and text side by side
+    }
+}
+
+.grid-item-footer {
+    
+
+}
+
+.footer-links {
+    width: 150px;
+    color: $white;
+    a {
+      text-decoration: none;  
+      color: $highlight03;
+    }
+    
+    
 }
 
 

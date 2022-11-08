@@ -42,6 +42,11 @@ h3 {
   line-height: 2em;
 }
 
+h5 {
+  font-size: 1.2em;
+  line-height: 2em;
+}
+
 .hero {
   height: 100vh;
   width: 100vw;
@@ -317,6 +322,7 @@ button.faded {
 section {
   position: relative;
   padding: 20px;
+  max-width: 1200px;
 }
 
 section.update {
@@ -374,6 +380,30 @@ section.clients {
 }
 footer {
   background-color: #000095;
+  max-width: 1200px;
+}
+
+.grid-container--footer {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1em;
+  justify-content: space-around;
+  padding: 4em;
+  max-width: 5em;
+}
+
+@media screen and (min-width: 767px) {
+  .grid-container--footer {
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+  }
+}
+.footer-links {
+  width: 150px;
+  color: #fff;
+}
+.footer-links a {
+  text-decoration: none;
+  color: #B3A7E3;
 }
 
 * {
@@ -396,4 +426,8 @@ p {
 }
 .container p {
   margin: 1rem 0;
+}
+
+ul {
+  list-style: none;
 }
