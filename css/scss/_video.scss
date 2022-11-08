@@ -21,3 +21,16 @@
     transition-timing-function: ease-in;
 
 }
+
+
+[role="dialog"] {
+    position: fixed;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.modal {
+   display: none; //modal is applied to the dom via JS but hidden until the 'clicked' style is given to it
+}

@@ -48,6 +48,7 @@ Json POST:https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attrib
 
 Accessibility:
 - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-label
+- Inclusive Components by Heydon Pickering - 2018 (pdf book)
 
 -------------------------------------
 

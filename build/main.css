@@ -80,6 +80,12 @@ h5 {
   color: #fff;
 }
 
+.logo:hover,
+.logo:focus {
+  box-shadow: 0 0 50px rgb(219, 206, 206);
+  transition-timing-function: ease-in;
+}
+
 .cta {
   position: fixed;
   height: 60px;
@@ -423,6 +429,17 @@ footer {
   max-width: 200px;
   box-shadow: 0 0 40px rgb(219, 206, 206);
   transition-timing-function: ease-in;
+}
+
+[role=dialog] {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal {
+  display: none;
 }
 
 * {
