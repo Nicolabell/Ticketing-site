@@ -1,0 +1,23 @@
+
+
+.videoImg {
+    max-width: 200px;
+    box-shadow: 0 0 10px #000;
+}
+
+@media screen and (min-width: 767px) {  // position the video to the left on desktop
+    .videoImg {
+        position: absolute;
+        top: 80%;
+        right: 20%;
+    }
+}
+
+
+.videoImg:hover,
+.videoImg:focus {
+    max-width: 200px;
+    box-shadow: 0 0 40px rgb(219, 206, 206);
+    transition-timing-function: ease-in;
+
+}
