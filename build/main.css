@@ -321,7 +321,7 @@ section.clients {
 }
 
 .graphic {
-  width: 50%;
+  width: 90%;
   padding: 20px;
 }
 
@@ -331,6 +331,11 @@ section.clients {
   gap: 1em;
 }
 
+@media screen and (min-width: 767px) {
+  .grid-parent {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 .grid-child {
   border: 3px solid hotpink;
 }
@@ -339,12 +344,6 @@ footer {
   background-color: #000095;
 }
 
-@media screen and (max-width: 767px) {
-  .graphic {
-    width: 90%;
-    padding: 10px;
-  }
-}
 * {
   box-sizing: border-box;
   margin: 0 auto;

@@ -54,16 +54,21 @@ section.clients {
 
 
 .graphic {
-    width: 50%;
+    width: 90%;
     padding: 20px;
 }
 
 .grid-parent {
     display: grid;
-    grid-template-columns: 1fr;  //Mobile first version
+    grid-template-columns: 1fr;  // Mobile first approach
     gap: 1em;
-    
+}
 
+
+@media screen and (min-width: 767px) {
+    .grid-parent {
+        grid-template-columns: 1fr 1fr; //desktop aligns the image and text side by side
+    }
 }
 
 .grid-child {
@@ -76,9 +81,4 @@ footer {
 
 }
 
-@media screen and (max-width: 767px) {
-    .graphic {
-        width: 90%;
-        padding: 10px;
-    }
-}
+
