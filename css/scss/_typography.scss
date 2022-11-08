@@ -3,8 +3,34 @@
 
 //I am importing both fonts and then setting each font as a variable so that I would be able to change across the board with a variable
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
+@import 'colours'; 
 
-
-// I don't have access to the sketch file yet so I dont know which is which :) this may change:
 $primary-font: 'Montserrat', sans-serif;
 $secondary-font: 'Open Sans', sans-serif;
+
+
+span.how-font {
+    text-transform: uppercase; // for the how zicket works subheading - screenreaders hopefully do not read this out as single letters
+    font-size: 2.4em;
+    color: rgba(248, 239, 239, 0.1);
+    -webkit-text-stroke: 2px $highlight02;
+
+    &--2 {
+      text-transform: uppercase; // for the how zicket works subheading - screenreaders hopefully do not read this out as single letters
+      font-size: 2.4em;
+      color: $highlight02;
+        
+    }
+}
+
+h3 {
+    color: $dark02;
+    font-weight: bold;  //work out why this isnt doing that
+    line-height: 2.5em;
+}
+
+.explore-font {
+    color: $highlight02;
+    text-transform: uppercase;
+    line-height: 2em;
+}
