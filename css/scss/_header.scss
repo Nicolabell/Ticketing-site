@@ -8,12 +8,13 @@ $ease: background .8s ease;
 .cta {
     position: fixed;
     height: 60px; //taken from sketch mock up
-    padding: 10px;
+    padding: 20px 0;
     color: $white;
     text-align: center;
     width: 100%;
     z-index: 1; //make sure top CTA remains sticky to top of screen
     background-color: $dark01;
+    
 }
 
 .main-header {

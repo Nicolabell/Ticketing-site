@@ -15,7 +15,6 @@
 // Partials
 
 @import 'typography';
-@import 'nav';
 @import 'hero';
 @import 'header';
 // @import 'breakpoints';
@@ -29,11 +28,12 @@
 
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
+    //padding: 0;
 }
 
 body {
+    margin: 0 auto;
     font-family: $primary-font;
 }
 
@@ -41,7 +41,7 @@ p {
     color: $grey;
 }
 
-// The sass below is based on the navigation tutorial and may need adjusting when sketch design seen
+// The sass below is based on the navigation tutorial and then adjusted after viewing hifi wireframes
 
 .container {
     width: 80%;

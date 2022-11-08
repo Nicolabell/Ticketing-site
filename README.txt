@@ -38,13 +38,7 @@ Responsive nav set up:
 - https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/
 - https://www.makeuseof.com/mobile-menu-bar-coding/
 
-
-Json POST:
-(bit confused here)
-- https://reqbin.com/req/2xhbguy8/json-payload-example
-- https://www.geeksforgeeks.org/how-to-send-a-json-object-to-a-server-using-javascript/  
-
-Styling:
+Json POST:https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-label
 - button borders - https://css-tricks.com/snippets/css/multiple-borders/
 - CSS gradients https://www.w3schools.com/css/css3_gradients.asp
 - clip path polygon maker https://bennettfeely.com/clippy
@@ -52,9 +46,14 @@ Styling:
 - flexbox centering https://onextrapixel.com/flexbox-centering-guide/
 - text stroke  https://www.youtube.com/watch?v=Hx1p1vQeHCg
 
+Accessibility:
+- https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-label
+
 -------------------------------------
 
 ### Timing
 ***
 - Inital gulp-sass set up - ~1.5 hours 
 - Responsive nav - ~ 3 hours
+..kind of lost track now
+- html stucture - ~ 3 hours?

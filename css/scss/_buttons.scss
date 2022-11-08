@@ -1,14 +1,19 @@
 // BUTTONS
 
 button {
-    background-color: $highlight01;
+    
     color: $white;
     padding: 10px 15px;
     border-radius: 40px;
     margin: 10px;
-    border: 10px rgba(0, 0, 0, .4);
-    //border: 10px opacity 5% rgb(0, 0, 255, 0);   ummmmmmmmmm
-    outline: 2px solid $highlight01;
+    //border: 5px solid transparent;
+    //border: 10px opacity 5% rgb(0, 0, 255, 0); 
+    border: solid transparent;  
+    outline: 10px solid rgba(248, 239, 239, 0.1);
+    box-shadow: 
+    0 0 0 10px rgba(248, 239, 239, 0.1),
+    0 0 0 5px hsl(337, 94%, 60%);
+    background-color: $highlight01;
 
     &:hover,   //obvious visual transition on focus and hover
     &:focus {
@@ -17,12 +22,16 @@ button {
     }
 
    
+
    
 }
 
 button.faded {
-        background-color: rgb(151, 151, 151, 0.4);
+        background-color: rgb(151, 151, 151, 0.6);
         outline: 2px solid rgb(151, 151, 151, 0.4);
+        box-shadow: 
+        0 0 0 10px rgba(248, 239, 239, 0.1),
+        0 0 0 5px rgb(99, 90, 94, 0.2);
     }
 
 

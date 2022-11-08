@@ -43,7 +43,7 @@
 .cta {
   position: fixed;
   height: 60px;
-  padding: 10px;
+  padding: 20px 0;
   color: #fff;
   text-align: center;
   width: 100%;
@@ -258,13 +258,14 @@
   }
 }
 button {
-  background-color: #F93B84;
   color: #fff;
   padding: 10px 15px;
   border-radius: 40px;
   margin: 10px;
-  border: 10px rgba(0, 0, 0, 0.4);
-  outline: 2px solid #F93B84;
+  border: solid transparent;
+  outline: 10px solid rgba(248, 239, 239, 0.1);
+  box-shadow: 0 0 0 10px rgba(248, 239, 239, 0.1), 0 0 0 5px hsl(337deg, 94%, 60%);
+  background-color: #F93B84;
 }
 button:hover, button:focus {
   background-color: #000;
@@ -272,22 +273,20 @@ button:hover, button:focus {
 }
 
 button.faded {
-  background-color: rgba(151, 151, 151, 0.4);
+  background-color: rgba(151, 151, 151, 0.6);
   outline: 2px solid rgba(151, 151, 151, 0.4);
+  box-shadow: 0 0 0 10px rgba(248, 239, 239, 0.1), 0 0 0 5px rgba(99, 90, 94, 0.2);
 }
 
 section {
   position: relative;
-  width: 100vw;
-  padding: 1px;
-  align-content: center;
+  padding: 20px;
 }
 
 section.update {
   text-align: center;
   display: flex;
-  width: 100vw;
-  height: 200px;
+  height: auto;
   color: #fff;
   background-color: #2A4789;
 }
@@ -297,6 +296,7 @@ section.try {
 }
 
 section.clients {
+  color: #fff;
   clip-path: polygon(0 2%, 100% 38%, 100% 100%, 0% 100%);
   background-image: linear-gradient(to right, #B3A7E3, #3B8EF9);
 }
@@ -305,11 +305,10 @@ section.clients {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  max-width: 1100px;
 }
 
 .flex-item {
-  text-align: center;
-  width: 45%;
   padding: 50px;
 }
 
@@ -322,11 +321,18 @@ section.clients {
 }
 
 .graphic {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 30%;
+  width: 50%;
   padding: 20px;
+}
+
+.grid-parent {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1em;
+}
+
+.grid-child {
+  border: 3px solid hotpink;
 }
 
 footer {
@@ -341,11 +347,11 @@ footer {
 }
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
 }
 
 body {
+  margin: 0 auto;
   font-family: "Montserrat", sans-serif;
 }
 
