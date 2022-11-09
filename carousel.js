@@ -1,4 +1,4 @@
-// js for carousel slider
+// js for carousel slider but needs replacing to allow button controls
 
 const slider = document.querySelector('.gallery');
 let isDown = false;

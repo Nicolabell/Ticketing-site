@@ -3,7 +3,6 @@
 ***
 
 Technical challenge for Parallax
-NB - I didn't have access to the Sketch file when I started this, so it's all probably a bit off piste initially :D
 
 -------------------------------------
 
@@ -13,7 +12,7 @@ nmp / node.js
 gulp 4
 javascript
 scss / css
-php (if I can get it working)
+express
 
 -------------------------------------
 
@@ -38,7 +37,13 @@ Responsive nav set up:
 - https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/
 - https://www.makeuseof.com/mobile-menu-bar-coding/
 
-Json POST:https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-label
+Json POST:
+- https://www.youtube.com/watch?v=QxjVZFa1XUM
+- https://www.youtube.com/watch?v=rin7gb9kdpk
+- https://www.youtube.com/watch?v=xJAxjstgITk
+- https://www.youtube.com/watch?v=Kw5tC5nQMRY
+
+Styles:
 - button borders - https://css-tricks.com/snippets/css/multiple-borders/
 - CSS gradients https://www.w3schools.com/css/css3_gradients.asp
 - clip path polygon maker https://bennettfeely.com/clippy
@@ -49,12 +54,8 @@ Json POST:https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attrib
 Accessibility:
 - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-label
 
-
-
-
 Carousel:
 - https://codepen.io/fredericrous/pen/xxVXJYX
-
 
 Responsive font size
 - https://matthewjamestaylor.com/responsive-font-size
