@@ -18,21 +18,30 @@ section.update {
     height: auto;
     color: $white;
     background-color: $dark04;
-
         
 }
 
-
-section.try {
-    text-align: center;
-    
-}
-
 section.clients {
+    padding: 6em;
     color: $white;
     clip-path: polygon(0 2%, 100% 38%, 100% 100%, 0% 100%);
     background-image: linear-gradient(to right, #7F3FD1 , #3B8EF9);
+
+    p {
+        color: $white;
+    }
 }
+
+.try {
+    display: grid;
+    justify-content: center;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    
+}
+
+
+
 
 .flex-container {
     display: flex;

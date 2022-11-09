@@ -333,14 +333,21 @@ section.update {
   background-color: #27117F;
 }
 
-section.try {
-  text-align: center;
-}
-
 section.clients {
+  padding: 6em;
   color: #fff;
   clip-path: polygon(0 2%, 100% 38%, 100% 100%, 0% 100%);
   background-image: linear-gradient(to right, #7F3FD1, #3B8EF9);
+}
+section.clients p {
+  color: #fff;
+}
+
+.try {
+  display: grid;
+  justify-content: center;
+  padding-top: 5em;
+  padding-bottom: 5em;
 }
 
 .flex-container {
@@ -415,11 +422,15 @@ footer {
 }
 
 .gallery-img {
-  min-width: 30px;
+  min-width: 300px;
 }
 .gallery-img img {
   max-width: 50%;
   border-radius: 5px;
+}
+.gallery-img img img:hover,
+.gallery-img img img:focus {
+  border: 10px solid;
 }
 .gallery-img li {
   display: inline-block;

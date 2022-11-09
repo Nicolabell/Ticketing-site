@@ -15,12 +15,19 @@
 }
 
 .gallery-img {
-    min-width: 30px;
+    min-width: 300px;
 
-    img {
-        max-width: 50%;
-        border-radius: 5px;
-    }
+        img {
+            max-width: 50%;
+            border-radius: 5px; 
+            
+            img:hover,
+            img:focus {
+            border: 10px solid;
+        }
+     }
+
+   
 
     li {
         //scroll-snap-align: center;
