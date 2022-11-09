@@ -49,6 +49,16 @@ Json POST:https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attrib
 Accessibility:
 - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-label
 
+
+
+
+Carousel:
+- https://codepen.io/fredericrous/pen/xxVXJYX
+
+
+Responsive font size
+- https://matthewjamestaylor.com/responsive-font-size
+- 
 -------------------------------------
 
 ### Timing

@@ -30,6 +30,28 @@ span.how-font--2 {
   }
 }
 
+.clients.h2.clients-font {
+  text-transform: uppercase;
+  font-size: 2.4em;
+  color: rgba(248, 239, 239, 0.1);
+  -webkit-text-stroke: 2px #fff;
+}
+@media screen and (max-width: 767px) {
+  .clients.h2.clients-font {
+    font-size: 1.5em;
+  }
+}
+.clients.h2.clients-font--2 {
+  text-transform: uppercase;
+  font-size: 2.4em;
+  color: #fff;
+}
+@media screen and (max-width: 767px) {
+  .clients.h2.clients-font--2 {
+    font-size: 1.5em;
+  }
+}
+
 h3 {
   color: #2A4789;
   font-weight: bold;
@@ -197,7 +219,7 @@ h5 {
     height: 100vh;
     font-size: 2rem;
     color: #fff;
-    background: #000095;
+    background: #2A4789;
   }
   .main-header .nav-links .nav-link {
     opacity: 0;
@@ -208,6 +230,7 @@ h5 {
   .main-header .nav-links .nav-link a {
     display: block;
     padding: 2rem 0;
+    font-size: 2rem;
   }
   .main-header .menu-btn:checked ~ .nav-links {
     opacity: 1;
@@ -444,6 +467,7 @@ footer {
 * {
   box-sizing: border-box;
   margin: 0 auto;
+  font-size: calc(15px + 0.390625vw);
 }
 
 body {

@@ -80,7 +80,6 @@ $ease: background .8s ease;
             &::before, &::after { // Additional 2 lines
                 content: '' ;
                 background: $highlight01;
-
                 position: absolute;
                 height: 100%;
                 width: 100%;

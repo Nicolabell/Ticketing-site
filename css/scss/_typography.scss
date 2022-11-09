@@ -30,6 +30,28 @@ span.how-font {
     
 }
 
+
+.clients.h2.clients-font {
+    text-transform: uppercase; // 
+    font-size: 2.4em;
+    color: rgba(248, 239, 239, 0.1);
+    -webkit-text-stroke: 2px $white;
+    @media screen and (max-width: 767px) {
+        font-size: 1.5em;    
+    }
+
+    &--2 {
+      text-transform: uppercase; // 
+      font-size: 2.4em;
+      color: $white;
+        @media screen and (max-width: 767px) {
+            font-size: 1.5em;
+        }
+            
+    }
+    
+}
+
 h3 {
     color: $dark02;
     font-weight: bold;  //work out why this isnt doing that
