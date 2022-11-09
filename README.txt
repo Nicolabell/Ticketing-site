@@ -58,7 +58,11 @@ Carousel:
 
 Responsive font size
 - https://matthewjamestaylor.com/responsive-font-size
-- 
+
+Form validation:
+- https://www.youtube.com/watch?v=fz8bwvn9lA4
+- https://www.abstractapi.com/guides/email-validation-regex-javascript
+
 -------------------------------------
 
 ### Timing
