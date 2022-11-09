@@ -2,7 +2,7 @@
 
 button { 
     color: $white;
-    padding: 10px 15px;
+    padding: 5px 10px;
     border-radius: 40px;
     margin: 10px;
     //border: 5px solid transparent;
@@ -10,7 +10,7 @@ button {
     border: solid transparent;  
     outline: 10px solid rgba(248, 239, 239, 0.1);
     box-shadow: 
-    0 0 0 10px rgba(248, 239, 239, 0.1),
+    0 0 0 5px rgba(248, 239, 239, 0.1),
     0 0 0 5px hsl(337, 94%, 60%);
     background-color: $highlight01;
 
@@ -21,7 +21,6 @@ button {
         transition-timing-function: ease-in;
         transition: 0.2s;
     } 
-
    
 }
 
@@ -29,9 +28,41 @@ button.faded {
         background-color: rgb(151, 151, 151, 0.6);
         outline: 2px solid rgb(151, 151, 151, 0.4);
         box-shadow: 
-        0 0 0 10px rgba(248, 239, 239, 0.1),
+        0 0 0 5px rgba(248, 239, 239, 0.1),
         0 0 0 5px rgb(99, 90, 94, 0.2);
+
+        &:hover,   //obvious visual transition on focus and hover
+    &:focus {
+        background-color: #000;
+        box-shadow: 0 0 50px rgb(219, 206, 206);
+        transition-timing-function: ease-in;
+        transition: 0.2s;
+    } 
+   
     }
 
 
+#submit {
+    color: $white;
+    padding: 5px 10px;
+    border-radius: 40px;
+    margin: 10px;
+    border: solid transparent;  
+    outline: 5px solid rgba(248, 239, 239, 0.1);
+    box-shadow: 
+    0 0 0 5px rgba(248, 239, 239, 0.1),
+    0 0 0 5px $highlight02(337, 94%, 60%);
+    background-color: $highlight02;
+
+    &:hover,   //obvious visual transition on focus and hover
+    &:focus {
+        background-color: #000;
+        box-shadow: 0 0 50px rgb(219, 206, 206);
+        transition-timing-function: ease-in;
+        transition: 0.2s;
+    } 
+   
+
+
+}
   
