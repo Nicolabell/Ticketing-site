@@ -42,6 +42,7 @@ Json POST:
 - https://www.youtube.com/watch?v=rin7gb9kdpk
 - https://www.youtube.com/watch?v=xJAxjstgITk
 - https://www.youtube.com/watch?v=Kw5tC5nQMRY
+- https://www.npmjs.com/package/body-parser-json
 
 Styles:
 - button borders - https://css-tricks.com/snippets/css/multiple-borders/
