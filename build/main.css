@@ -102,6 +102,12 @@ h5 {
   color: #fff;
 }
 
+.logo:hover,
+.logo:focus {
+  box-shadow: 0 0 50px rgb(219, 206, 206);
+  transition-timing-function: ease-in;
+}
+
 .cta {
   position: fixed;
   height: 60px;
@@ -140,7 +146,8 @@ h5 {
   padding: 1.5rem 1rem;
   text-decoration: none;
 }
-.main-header .nav-links .nav-link a:hover {
+.main-header .nav-links .nav-link a:hover,
+.main-header .nav-links .nav-link a:focus {
   background: rgba(80, 179, 224, 0.74);
   border-radius: 6px;
   text-decoration: underline;
@@ -333,6 +340,8 @@ button {
 }
 button:hover, button:focus {
   background-color: #000;
+  box-shadow: 0 0 50px rgb(219, 206, 206);
+  transition-timing-function: ease-in;
   transition: 0.2s;
 }
 
@@ -489,4 +498,12 @@ p {
 
 ul {
   list-style: none;
+}
+
+a:hover,
+a:focus {
+  background-color: #000;
+  box-shadow: 0 0 50px rgba(219, 206, 206, 0.158);
+  transition-timing-function: ease-in;
+  transition: 0.2s;
 }

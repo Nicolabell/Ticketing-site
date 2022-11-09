@@ -5,6 +5,13 @@
 
 $ease: background .8s ease;
 
+.logo:hover,
+.logo:focus {
+    box-shadow: 0 0 50px rgb(219, 206, 206);
+    transition-timing-function: ease-in;
+}
+
+
 .cta {
     position: fixed;
     height: 60px; //taken from sketch mock up
@@ -49,7 +56,8 @@ $ease: background .8s ease;
             text-decoration: none;
 
         }
-        a:hover {
+        a:hover,
+        a:focus {
             background: rgba(80, 179, 224, 0.74); // strong visual change to help with accessibility
             border-radius: 6px;
             text-decoration: underline;
