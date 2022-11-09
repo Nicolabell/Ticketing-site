@@ -30,24 +30,24 @@ span.how-font--2 {
   }
 }
 
-.clients.h2.clients-font {
+.clients h2 {
   text-transform: uppercase;
-  font-size: 2.4em;
+  font-size: 2em;
   color: rgba(248, 239, 239, 0.1);
   -webkit-text-stroke: 2px #fff;
 }
 @media screen and (max-width: 767px) {
-  .clients.h2.clients-font {
+  .clients h2 {
     font-size: 1.5em;
   }
 }
-.clients.h2.clients-font--2 {
+.clients h2--2 {
   text-transform: uppercase;
   font-size: 2.4em;
   color: #fff;
 }
 @media screen and (max-width: 767px) {
-  .clients.h2.clients-font--2 {
+  .clients h2--2 {
     font-size: 1.5em;
   }
 }
@@ -67,6 +67,11 @@ h3 {
 h5 {
   font-size: 1.2em;
   line-height: 2em;
+  font-family: "Open Sans", sans-serif;
+}
+
+.upper {
+  text-transform: uppercase;
 }
 
 .hero {
@@ -90,7 +95,7 @@ h5 {
   text-shadow: 2px 2px 4px #000000;
   -webkit-text-stroke: 2px white;
   padding: 2rem;
-  padding-top: 15rem;
+  padding-top: 10rem;
   border-radius: 20px 0;
   max-width: 500px;
 }
@@ -504,7 +509,7 @@ footer {
 
 body {
   margin: 0 auto;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 p {
