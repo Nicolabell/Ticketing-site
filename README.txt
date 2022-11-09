@@ -71,5 +71,5 @@ Form validation:
 ***
 - Inital gulp-sass set up - ~1.5 hours 
 - Responsive nav - ~ 3 hours
-..kind of lost track now
-- html stucture - ~ 3 hours?
+- html stucture and styling - ~ 6 hours?
+(Have to admit I have lost track a bit)
