@@ -162,15 +162,19 @@
 
     <section class="update">
        <!-- text for newsletter signup -->
-       <h4>Stay up to date<h4>
-       <p>Receive our latest news, announcements and offers.</p>
-       <input type="text"  id="name" aria-label="Name" placeholder="Your name" onkeyup="validateName()">
-       <span id ="name-err"></span>
-       <input type="email" id="email" aria-label="Email" placeholder="Email" onkeyup="validateEmail()">
-       <span id ="email-err"></span>
-       <!-- Button to send data -->
-       <button onclick="sendJSON()">Submit</button>
-       <span id ="submit-err"></span>
+       <div>
+        <h4>Stay up to date<h4>
+        <p>Receive our latest news, announcements and offers.</p>
+       </div>
+       <div>
+        <input type="text"  id="name" aria-label="Name" placeholder="Your name" onkeyup="validateName()">
+        <span id ="name-err"></span>
+        <input type="email" id="email" aria-label="Email" placeholder="Email" onkeyup="validateEmail()">
+        <span id ="email-err"></span>
+        <!-- Button to send data -->
+        <button onclick="sendJSON()">Submit</button>
+        <span id ="submit-err"></span>
+      </div>
 
      <!-- For printing result from server -->
      <p class="result" style="color:green"></p>

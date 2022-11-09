@@ -24,12 +24,14 @@ section.update {
 section.clients {
     padding: 6em;
     color: $white;
-    clip-path: polygon(0 2%, 100% 38%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 2%, 100% 20%, 100% 100%, 0% 100%);
     background-image: linear-gradient(to right, #7F3FD1 , #3B8EF9);
 
     p {
         color: $white;
     }
+ 
+    
 }
 
 .try {
