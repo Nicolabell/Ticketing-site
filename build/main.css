@@ -74,6 +74,10 @@ h4 {
   text-transform: uppercase;
 }
 
+.ftr-link {
+  padding: 20px 40px;
+}
+
 .hero {
   height: 100vh;
   width: 100vw;
@@ -368,7 +372,7 @@ button.right {
   color: #fff;
   padding: 5px 10px;
   border-radius: 40px;
-  margin: 10px;
+  margin: 20px 5px;
   border: solid transparent;
   outline: 1px solid #3B8EF9;
   outline-offset: 4px;
@@ -561,4 +565,15 @@ a:focus {
   box-shadow: 0 0 50px rgba(219, 206, 206, 0.158);
   transition-timing-function: ease-in;
   transition: 0.2s;
+}
+
+input[type=email] {
+  background-color: hotpink;
+  padding: 10px 0;
+  border-top: 1px;
+  border-left: 1px;
+  border-right: 1px;
+  border-bottom: 1px solid #5A6488;
+  background: none;
+  color: #5A6488;
 }

@@ -73,3 +73,14 @@ a:focus {
     transition: 0.2s;
 } 
 
+input[type=email] {
+    background-color: hotpink;
+    padding: 10px 0;
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    border-bottom: 1px solid $grey;
+    background: none;
+    color: $grey;
+  }
+
