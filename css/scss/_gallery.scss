@@ -16,14 +16,22 @@
 
 .gallery-img {
     min-width: 300px;
+    position: relative;
+    z-index: 5;
 
         img {
+            //position: relative;
             max-width: 50%;
             border-radius: 5px; 
+            z-index: 3;
             
             img:hover,
             img:focus {
             border: 10px solid;
+        }
+
+        title: {
+            position: relative;
         }
      }
 
@@ -35,10 +43,10 @@
     }
     
     .gallery-logo {
-        //position: absolute;
-        top: 50%;
-        right: 50%;
-        max-width: 200px;
+        position: absolute;
+        top: 30%;
+        right: 60%;
+        width: 30%;
 
     }
 
