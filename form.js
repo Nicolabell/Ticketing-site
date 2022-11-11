@@ -1,22 +1,6 @@
 // Form validation 
 
-const nameError = document.getElementById('name-err');
 const emailError = document.getElementById('email-err');
-
-//Validate name
-
-function validateName() {
-    const name = document.getElementById('name').value;  // this looks at the value stored in the name input field
-
-    //check name is entered
-    if(name.length == 0) {
-        nameError.innerHTML = 'Name is required';
-        return false; //so that form is not submitted
-    }
-    nameError.innerHTML = 'valid';
-    return true;
-
-}
 
 
 //Validate email

@@ -64,7 +64,7 @@ h3 {
   line-height: 2.5em;
 }
 
-h5 {
+h4 {
   font-size: 1.2em;
   line-height: 2em;
   font-family: "Open Sans", sans-serif;
@@ -394,7 +394,7 @@ section {
 }
 
 section.update {
-  text-align: center;
+  text-align: left;
   display: flex;
   height: auto;
   color: #fff;
@@ -448,6 +448,10 @@ section.clients p {
   gap: 1em;
 }
 
+.grid-item {
+  padding: 5px;
+}
+
 @media screen and (min-width: 767px) {
   .grid-parent {
     grid-template-columns: 1fr 1fr;
@@ -473,12 +477,13 @@ footer {
   }
 }
 .footer-links {
-  width: 150px;
   color: #fff;
+  padding: 1px;
 }
 .footer-links a {
   text-decoration: none;
   color: #B3A7E3;
+  padding: 1px;
 }
 
 .gallery {
@@ -535,13 +540,7 @@ body {
 
 p {
   color: #5A6488;
-  padding: 5px;
-}
-
-h3,
-h4,
-h5 {
-  padding: 5px;
+  padding: 15px 0px;
 }
 
 .container {
