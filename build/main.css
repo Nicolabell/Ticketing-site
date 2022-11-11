@@ -337,10 +337,9 @@ button {
   color: #fff;
   padding: 5px 10px;
   border-radius: 40px;
-  margin: 10px;
   border: solid transparent;
-  outline: 10px solid rgba(248, 239, 239, 0.1);
-  box-shadow: 0 0 0 5px rgba(248, 239, 239, 0.1), 0 0 0 5px hsl(337deg, 94%, 60%);
+  outline: 1px solid #F93B84;
+  outline-offset: 4px;
   background-color: #F93B84;
 }
 button:hover, button:focus {
@@ -353,7 +352,6 @@ button:hover, button:focus {
 button.faded {
   background-color: rgba(151, 151, 151, 0.6);
   outline: 2px solid rgba(151, 151, 151, 0.4);
-  box-shadow: 0 0 0 5px rgba(248, 239, 239, 0.1), 0 0 0 5px rgba(99, 90, 94, 0.2);
 }
 button.faded:hover, button.faded:focus {
   background-color: #000;
@@ -362,19 +360,27 @@ button.faded:hover, button.faded:focus {
   transition: 0.2s;
 }
 
-#submit {
+#submit,
+button.left,
+button.right {
   color: #fff;
   padding: 5px 10px;
   border-radius: 40px;
   margin: 10px;
   border: solid transparent;
-  outline: 5px solid rgba(248, 239, 239, 0.1);
+  outline: 1px solid #3B8EF9;
+  outline-offset: 4px;
   box-shadow: 0 0 0 5px rgba(248, 239, 239, 0.1), 0 0 0 5px #3B8EF9 337, 94%, 60%;
   background-color: #3B8EF9;
 }
-#submit:hover, #submit:focus {
+#submit:hover, #submit:focus,
+button.left:hover,
+button.left:focus,
+button.right:hover,
+button.right:focus {
   background-color: #000;
   box-shadow: 0 0 50px rgb(219, 206, 206);
+  outline-offset: 4px;
   transition-timing-function: ease-in;
   transition: 0.2s;
 }
